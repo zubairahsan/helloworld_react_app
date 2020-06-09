@@ -35,4 +35,4 @@ jobs:
     - name: installing Sruge 
       run: npm install -g surge
     - name: Deploye app using Surge
-      run: surge ./build http://helloworld.surge.sh/ --token ${{secrets.SURGE_KEY}}    
+      run: surge ./build helloworld.surge.sh/ --token ${{secrets.SURGE_KEY}}    
